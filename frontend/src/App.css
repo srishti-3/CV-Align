@@ -1,0 +1,76 @@
+/* App.css */
+
+/* App layout styling */
+.app-container {
+  min-height: 100vh;
+  min-width: 100vw;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f8;
+  color: #222;
+}
+
+/* Main content pushes footer to bottom */
+.main-content {
+  flex: 1;
+  padding: 2rem;
+}
+
+/* Header/Footer placeholder styling */
+header,
+footer {
+  background-color: #fff;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 1rem 2rem;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Links/buttons in pages */
+a,
+button {
+  cursor: pointer;
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover,
+button:hover {
+  color: #0056b3;
+}
+
+/* Responsive container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Card style for dashboard or job details */
+.card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  margin-bottom: 2rem;
+}
+
+/* Simple button */
+.button {
+  padding: 0.6rem 1.2rem;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
