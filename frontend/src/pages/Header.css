@@ -1,0 +1,66 @@
+/* frontend/pages/Header.css */
+.header {
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem 0;
+}
+
+.header-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #4f46e5;
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-link {
+  color: #374151;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  border-radius: 4px;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #4f46e5;
+}
+
+.nav-button {
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.student-btn {
+  background-color: #4f46e5;
+}
+
+.student-btn:hover {
+  background-color: #4338ca;
+}
+
+.recruiter-btn {
+  background-color: #10b981;
+}
+
+.recruiter-btn:hover {
+  background-color: #059669;
+}
