@@ -1,0 +1,237 @@
+/* General container styles (you can merge with your existing styles) */
+
+.home-wrapper {
+  background: linear-gradient(135deg, #e0e7ff 0%, #dbeafe 100%);
+  min-height: 100vh;
+  padding: 3rem 1rem;
+  font-family: Arial, sans-serif;
+}
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.intro-text {
+  text-align: center; /* Center all text inside */
+}
+.intro-text .title,
+.intro-text .subtitle {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* Title and intro text */
+.intro-text .title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 0.5rem;
+  
+}
+
+.intro-text .highlight {
+  color: #4f46e5; /* Indigo */
+}
+
+.intro-text .subtitle {
+  font-size: 1.2rem;
+  color: #475569;
+  max-width: 650px;
+  margin: 0 auto 3rem auto;
+}
+
+/* Feature grid */
+.features-grid {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+
+.feature-card {
+  background: white;
+  border-radius: 0.8rem;
+  padding: 1.5rem;
+  text-align: center;
+  flex: 1;
+  box-shadow: 0 8px 20px rgb(99 102 241 / 0.1);
+}
+
+.icon-circle {
+  width: 56px;
+  height: 56px;
+  margin: 0 auto 1rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature-icon {
+  width: 28px;
+  height: 28px;
+  stroke-width: 2;
+}
+
+.indigo-bg {
+  color: #3730a3;
+}
+
+.indigo-circle {
+  background-color: #e0e7ff;
+  color: #4f46e5;
+}
+
+.green-bg {
+  color: #065f46;
+}
+
+.green-circle {
+  background-color: #d1fae5;
+  color: #10b981;
+}
+
+.purple-bg {
+  color: #6b21a8;
+}
+
+.purple-circle {
+  background-color: #ede9fe;
+  color: #7c3aed;
+}
+
+.feature-title {
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.feature-desc {
+  font-size: 1rem;
+  color: #475569;
+}
+
+/* How it works section */
+.how-it-works {
+  background: white;
+  padding: 2rem 2.5rem;
+  border-radius: 0.8rem;
+  box-shadow: 0 10px 30px rgb(0 0 0 / 0.05);
+  margin-bottom: 3rem;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #3730a3;
+}
+
+.how-grid {
+  display: flex;
+  gap: 3rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.student-title {
+  color: #4f46e5;
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.recruiter-title {
+  color: #10b981;
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.steps-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.steps-list li {
+  margin-bottom: 0.9rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  font-size: 1rem;
+  color: #475569;
+}
+
+.step-num {
+  min-width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: #4f46e5;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  line-height: 24px;
+  flex-shrink: 0;
+}
+
+.recruiter-step {
+  background-color: #10b981;
+}
+
+/* Login Buttons Section */
+
+.login-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.login-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  border: none;
+  border-radius: 0.6rem;
+  padding: 0.8rem 2rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  user-select: none;
+  min-width: 180px;
+}
+
+.login-btn:hover {
+  filter: brightness(1.1);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+
+.student-login {
+  background-color: #4f46e5; /* Indigo */
+  box-shadow: 0 6px 15px rgba(79, 70, 229, 0.4);
+}
+
+.recruiter-login {
+  background-color: #10b981; /* Emerald */
+  box-shadow: 0 6px 15px rgba(16, 185, 129, 0.4);
+}
+
+.btn-icon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  filter: drop-shadow(0 0 1px rgba(0,0,0,0.1));
+}
