@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.sqlite3
+*.db
+
+# Environment
+.env
+venv/
+venv310/
+
+# FastAPI temp
+*.log
+temp_cvs/
+
+# VSCode
+.vscode/
+
+# React (Node)
+frontend/node_modules/
+frontend/.env
+frontend/.DS_Store
+frontend/build/
+frontend/dist/
+
+# Mac OS
+.DS_Store
+
+# Others
+*.bak
+*.swp
+*.tmp
+*.~ 
+*.ipynb_checkpoints
