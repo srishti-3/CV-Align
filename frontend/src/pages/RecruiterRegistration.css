@@ -1,0 +1,140 @@
+/* RecruiterAuth.css */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9fafb;
+  height: 100%;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 1rem;
+  box-sizing: border-box;
+}
+
+.form-box {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+  max-width: 448px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.header h2 {
+  margin: 0 0 0.5rem 0;
+  font-size: 30px;
+  font-weight: bold;
+  color: #111827;
+}
+
+.header p {
+  margin: 0;
+  font-size: 16px;
+  color: #4b5563;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  font-size: 14px;
+  color: #374151;
+  margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #d1d5db;
+    background-color: #dedada;
+     color: #000000;
+  border-radius: 6px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+  outline: none;
+  border-color: #6366f1;
+  box-shadow: 0 0 8px rgba(99, 102, 241, 0.5);
+}
+
+button[type="submit"] {
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover:not(:disabled) {
+  background-color: #4338ca;
+}
+
+button[type="submit"]:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.footer-text {
+  font-size: 14px;
+  color: #4b5563;
+}
+
+.footer-text button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  color: #4f46e5;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.footer-text button:hover {
+  color: #4338ca;
+}
+
+@media (max-width: 480px) {
+  .form-box {
+    max-width: 100%;
+    padding: 1.5rem;
+  }
+
+  button[type="submit"] {
+    font-size: 16px;
+  }
+}
