@@ -1,0 +1,26 @@
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+python-multipart>=0.0.6
+motor>=3.4.0
+pydantic>=2.6.0
+cloudinary>=1.39.0
+python-dotenv>=1.0.1
+
+PyMuPDF
+email-validator
+gensim==4.3.3 
+scipy==1.10.1 
+numpy==1.26.4
+pinecone 
+sentence-transformers 
+langchain 
+langchain-google-genai
+text_generation 
+huggingface_hub
+spacy
+# After installing, run: python -m spacy download en_core_web_sm
+pymongo
+python-multipart
+pandas
+
+
