@@ -59,7 +59,7 @@ The **CV Align Platform** revolutionizes recruitment by automating the manual re
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/C-Lakshmi/cvalign.git
+https://github.com/srishti-3/CV-Align.git
 ```
 ## Backend Setup
 
